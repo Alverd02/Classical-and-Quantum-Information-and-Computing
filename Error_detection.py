@@ -26,7 +26,6 @@ def simular_canal(epsilon, N=100000):
 
     return perc_corruptes_4, perc_detectats_sobre_errors
 
-# Execució per epsilon = 0.1
 e1 = 0.1
 p4, p_det = simular_canal(e1)
 
@@ -72,7 +71,6 @@ def simular_shannon_asimmetric(epsilon_1, N=100000):
             
     return (simbols_corruptes / N) * 100
 
-# Execució
 e1 = 0.1
 percentatge = simular_shannon_asimmetric(e1)
 
